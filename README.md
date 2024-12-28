@@ -1,7 +1,3 @@
-I can help you create a README file for your repository. I will include sections that are typically found in a good README file. Here is a draft:
-
----
-
 # v2rayN
 
 A GUI client for Windows, Linux and macOS, supporting Xray core and sing-box-core and others.
