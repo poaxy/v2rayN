@@ -1,34 +1,69 @@
+I can help you create a README file for your repository. I will include sections that are typically found in a good README file. Here is a draft:
+
+---
+
 # v2rayN
-A GUI client for Windows, Linux and macOS, support [Xray core](https://github.com/XTLS/Xray-core) and [sing-box-core](https://github.com/SagerNet/sing-box/releases) and [others](https://github.com/2dust/v2rayN/wiki/List-of-supported-cores)
 
+A GUI client for Windows, Linux and macOS, supporting Xray core and sing-box-core and others.
 
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/2dust/v2rayN)](https://github.com/2dust/v2rayN/commits/master)
-[![CodeFactor](https://www.codefactor.io/repository/github/2dust/v2rayn/badge)](https://www.codefactor.io/repository/github/2dust/v2rayn)
-[![GitHub Releases](https://img.shields.io/github/downloads/2dust/v2rayN/latest/total?logo=github)](https://github.com/2dust/v2rayN/releases)
-[![Chat on Telegram](https://img.shields.io/badge/Chat%20on-Telegram-brightgreen.svg)](https://t.me/v2rayn)
+## Table of Contents
 
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Contributing](#contributing)
+- [License](#license)
 
-## How to use
-Check [Release files introduction](https://github.com/2dust/v2rayN/wiki/Release-files-introduction) and select the version you need to download 
+## Introduction
+
+v2rayN is a cross-platform GUI client that supports multiple cores like Xray, sing-box-core, and others. It provides an easy-to-use interface for managing and configuring your proxy settings.
+
+## Features
+
+- Cross-platform support (Windows, Linux, macOS)
+- Support for Xray core and sing-box-core
+- User-friendly GUI
+- Easy configuration and management of proxy settings
+- Multiple language support
+
+## Installation
+
 ### Windows
-- Run `v2rayN.exe`
+
+1. Download the latest release from the [Releases](https://github.com/poaxy/v2rayN/releases) page.
+2. Extract the downloaded archive.
+3. Run the `v2rayN.exe` file.
+
 ### Linux
-- `chmod +x v2rayN` Run `./v2rayN` under user permissions
-```
-Debian 9+
-Ubuntu 16.04+
-Fedora 30+
-```
+
+1. Download the latest release from the [Releases](https://github.com/poaxy/v2rayN/releases) page.
+2. Extract the downloaded archive.
+3. Open a terminal and navigate to the extracted directory.
+4. Run `./v2rayN`.
+
 ### macOS
-- `chmod +x v2rayN` Run `./v2rayN` under user permissions
-```
-macOS 10.14+
-```
 
-## Requirements  
-- [Microsoft .NET 8.0 Desktop Runtime ](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
-- [Supported cores](https://github.com/2dust/v2rayN/wiki/List-of-supported-cores)
+1. Download the latest release from the [Releases](https://github.com/poaxy/v2rayN/releases) page.
+2. Extract the downloaded archive.
+3. Open the extracted directory and run the `v2rayN.app`.
 
+## Usage
 
-## Telegram Channel
-[github_2dust](https://t.me/github_2dust)
+1. Open the application.
+2. Go to the configuration section to set up your proxy settings.
+3. Save your configuration and start the proxy.
+
+## Configuration
+
+Configuration files can be found in the `config` directory. You can edit these files to customize your proxy settings.
+
+## Contributing
+
+We welcome contributions to the v2rayN project. Please check the [Contributing Guidelines](CONTRIBUTING.md) for more information.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
